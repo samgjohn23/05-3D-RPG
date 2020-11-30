@@ -1,7 +1,7 @@
 extends KinematicBody
 
 const MOVE_SPEED = 12
-const JUMP_FORCE = 30
+const JUMP_FORCE = 20
 const GRAVITY = 0.98
 const MAX_FALL_SPEED = 30
 

@@ -6,7 +6,7 @@
 radius = 0.446493
 height = 0.662629
 
-[node name="Enemy" type="KinematicBody"]
+[node name="Enemy" type="Area"]
 
 [node name="CollisionShape" type="CollisionShape" parent="."]
 transform = Transform( 1, 0, 0, 0, -1.62921e-07, -1, 0, 1, -1.62921e-07, 0, 0.731921, 0 )

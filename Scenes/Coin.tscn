@@ -24,5 +24,5 @@ transform = Transform( 0.4, 0, 0, 0, -4.93939e-09, -0.4, 0, 0.113, -1.74846e-08,
 shape = SubResource( 3 )
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 0.4
+wait_time = 0.2
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

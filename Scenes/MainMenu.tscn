@@ -4,7 +4,7 @@
 [ext_resource path="res://Assets/Timeline.otf" type="DynamicFontData" id=2]
 [ext_resource path="res://Scenes/MainMenu.gd" type="Script" id=3]
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="DynamicFont" id=1]
 size = 80
 outline_size = 2
 outline_color = Color( 0.294118, 0.282353, 0.282353, 1 )
@@ -70,7 +70,7 @@ margin_left = 165.068
 margin_top = 116.125
 margin_right = 826.068
 margin_bottom = 247.125
-custom_fonts/font = SubResource( 4 )
+custom_fonts/font = SubResource( 1 )
 text = "COLLECT THE"
 __meta__ = {
 "_edit_use_anchors_": false
